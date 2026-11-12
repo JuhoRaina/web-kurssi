@@ -1,0 +1,20 @@
+:root {
+    color-scheme: light dark;
+    --bg: #fdfaf2;
+    --text: #262626;
+    --accent: #2a7f8f;
+    --card-bg: #ffffff;
+    --border: #d8d3c8;
+    --font-base: system-ui, -apple-system, sans-serif;
+    --space: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #161a1b
+        --text: #f4f1ea;
+        --accent: #5bc0d4;
+        --card-bg: #202628;
+        --border: #364043;
+    }
+}
