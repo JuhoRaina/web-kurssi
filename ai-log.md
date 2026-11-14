@@ -1,4 +1,4 @@
-Tekoälyn käyttö
+## Tekoälyn käyttö
 Mitä kysyin?
 Jouduin kysymään apua kyllä oikestaan jokaisessa vaiheessa että miten saan esim vietyä tiedostot tonne githubiin.
 Kysyin ohjeita että mitä mun pitää tossa e2 tehtävässä tehdä kysymällä että tekisi tiivistelmän annetusta pdf tiedostosta.
@@ -7,6 +7,6 @@ laitoin tekoälylle opettajan laittaman tarkastuksen E1 tehtävään liittyen ja
 Kysyin myös apua että mitenkä laitan noita tietoja tonne sivulle ja mitenkä mahdollisesti kirjottaisin ne.
 kysyin että mitenkä saan tyylejä muutettua tosta sivusta ja se neuvoi mua miten teen sen.
 kysyin että mitenkä saan noi värit tonne sivulle ja se antoi mulle oikeat värikoodit mitä vaadittu
-Mitä oli väärin?
+## Mitä oli väärin?
 Aluksi se ei tiennyt että mulla oli eri tiedostoja mun web kansios ja github kansios niin siks meni sekaasin
 
