@@ -93,3 +93,48 @@ footer {
     margin: 0;
   }
 }
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+button {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--accent);
+  border-radius: 0.5rem;
+  background-color: var(--card-bg);
+  color: var(--text);
+  cursor: pointer;
+}
+
+button[aria-pressed="true"] {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+#course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--space);
+  margin-top: var(--space);
+}
+
+#course-list article {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 0.5rem;
+  padding: var(--space);
+}
+
+[hidden] {
+  display: none;
+}
