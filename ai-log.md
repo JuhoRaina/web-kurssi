@@ -7,6 +7,7 @@ laitoin tekoälylle opettajan laittaman tarkastuksen E1 tehtävään liittyen ja
 Kysyin myös apua että mitenkä laitan noita tietoja tonne sivulle ja mitenkä mahdollisesti kirjottaisin ne.
 kysyin että mitenkä saan tyylejä muutettua tosta sivusta ja se neuvoi mua miten teen sen.
 kysyin että mitenkä saan noi värit tonne sivulle ja se antoi mulle oikeat värikoodit mitä vaadittu
+kysytty apua app.js scriptin tekemisessä ja neuvoi kuinka mun kannattaisi tehdä se.
 ## Mitä oli väärin?
 Aluksi se ei tiennyt että mulla oli eri tiedostoja mun web kansios ja github kansios niin siks meni sekaasin
 
