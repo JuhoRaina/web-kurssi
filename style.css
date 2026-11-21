@@ -138,3 +138,59 @@ button:focus-visible {
 [hidden] {
   display: none;
 }
+.field {
+  margin-bottom: 1rem;
+}
+
+.field label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.field-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.field-checkbox label {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.hint {
+  font-size: 0.9rem;
+  margin: 0 0 0.35rem;
+  opacity: 0.85;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select {
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+[aria-invalid="true"] {
+  border: 2px solid var(--error);
+}
+
+.error {
+  color: var(--error);
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0;
+  min-height: 1.2em;
+}
+
+#form-status {
+  margin-top: 1rem;
+  font-weight: 600;
+}
