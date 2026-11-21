@@ -8,6 +8,7 @@ Kysyin myös apua että mitenkä laitan noita tietoja tonne sivulle ja mitenkä 
 kysyin että mitenkä saan tyylejä muutettua tosta sivusta ja se neuvoi mua miten teen sen.
 kysyin että mitenkä saan noi värit tonne sivulle ja se antoi mulle oikeat värikoodit mitä vaadittu
 kysytty apua app.js scriptin tekemisessä ja neuvoi kuinka mun kannattaisi tehdä se.
+kysyin apua miten saan poistettua vahingos kloonatun kansion githubiin. Meni ihan sekasin kun rupesin windows pöytäkoneella tekemään ja ennen tehnyt vain mun macbookilla.
 ## Mitä oli väärin?
 Aluksi se ei tiennyt että mulla oli eri tiedostoja mun web kansios ja github kansios niin siks meni sekaasin
 
