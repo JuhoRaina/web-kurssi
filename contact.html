@@ -20,20 +20,88 @@
     </nav>
   </header>
 
-  <main>
-    <h1>Ota yhteyttä ja ilimoittaudu mukahan</h1>
-    <section>
-      <h2>Yhteystierot</h2>
-      <p>Autokoulu Ajokaista, Alajärvi</p>
-      <p>Yhteyshenkilö: Ojalan Tiina, ajo-opettaja</p>
-      <p>Sähköposti: <a href="mailto:info@ajokaista.fi">info@ajokaista.fi</a></p>
-      <p>Puhelin: <a href="tel:+358401234567">040 123 4567</a></p>
-    </section>
-    <section>
-      <h2>Ilimoittautumislomake</h2>
-      <p>Netti-ilimoittautumislomake laitetahan tähän kuntohon ihan justihin. Paikat varmistetahan aina pirauttamalla puhelimella ilimoittautumisen jäläkehen.</p>
-    </section>
-  </main>
+<main>
+  <h1>Ilmoittautuminen ja yhteystiedot</h1>
+  <p>Tämä lomake tarkistaa ilmoittautumispyyntösi tällä sivulla, mutta sitä ei ole vielä kytketty sähköpostiin. Lopullinen kurssipaikka vahvistetaan puhelimitse.</p>
+  <p>Tähdellä (*) merkityt kentät ovat pakollisia.</p>
+
+  <section aria-labelledby="signup-heading">
+    <h2 id="signup-heading">Ilmoittaudu kurssille</h2>
+
+    <form id="signup-form">
+      <div class="field">
+        <label for="name">Nimi *</label>
+        <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+        <p class="error" id="name-error"></p>
+      </div>
+
+      <div class="field">
+        <label for="birthdate">Syntymäaika *</label>
+        <p class="hint" id="birthdate-hint">Alle 18-vuotiailta tarvitaan myös huoltajan tiedot.</p>
+        <input id="birthdate" name="birthdate" type="date" autocomplete="bday" required aria-describedby="birthdate-hint birthdate-error">
+        <p class="error" id="birthdate-error"></p>
+      </div>
+
+      <div class="field">
+        <label for="phone">Puhelinnumero *</label>
+        <p class="hint" id="phone-hint">Soitamme tähän numeroon vahvistaaksemme paikan. Vain numeroita, välilyöntejä ja +-merkki.</p>
+        <input id="phone" name="phone" type="tel" autocomplete="tel" required pattern="[0-9 +]{7,20}" aria-describedby="phone-hint phone-error">
+        <p class="error" id="phone-error"></p>
+      </div>
+
+      <div class="field">
+        <label for="email">Sähköposti (vapaaehtoinen)</label>
+        <input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error">
+        <p class="error" id="email-error"></p>
+      </div>
+
+      <div class="field">
+        <label for="course">Valittu kurssi *</label>
+        <select id="course" name="course" required aria-describedby="course-error">
+          <option value="">Valitse kurssi</option>
+          <option value="B-kortti (Henkilöauto)">B-kortti (Henkilöauto)</option>
+          <option value="A-kortti (Moottoripyörä)">A-kortti (Moottoripyörä)</option>
+          <option value="T-kortti (Traktori)">T-kortti (Traktori)</option>
+        </select>
+        <p class="error" id="course-error"></p>
+      </div>
+
+      <div class="field">
+        <label for="previous-licenses">Aiemmat ajokortit (vapaaehtoinen)</label>
+        <input id="previous-licenses" name="previousLicenses" type="text" placeholder="Esim. AM120, T" aria-describedby="previous-licenses-error">
+        <p class="error" id="previous-licenses-error"></p>
+      </div>
+
+      <div class="field field-checkbox">
+        <input id="english-theory" name="englishTheory" type="checkbox">
+        <label for="english-theory">Tarvitsen teoriakurssin englanniksi (vapaaehtoinen)</label>
+      </div>
+
+      <div class="field">
+        <label for="guardian-name">Huoltajan nimi (pakollinen alle 18-vuotiaille)</label>
+        <input id="guardian-name" name="guardianName" type="text" aria-describedby="guardian-name-error">
+        <p class="error" id="guardian-name-error"></p>
+      </div>
+
+      <div class="field">
+        <label for="guardian-phone">Huoltajan puhelinnumero (pakollinen alle 18-vuotiaille)</label>
+        <p class="hint" id="guardian-phone-hint">Vain numeroita, välilyöntejä ja +-merkki.</p>
+        <input id="guardian-phone" name="guardianPhone" type="tel" pattern="[0-9 +]{7,20}" aria-describedby="guardian-phone-hint guardian-phone-error">
+        <p class="error" id="guardian-phone-error"></p>
+      </div>
+
+      <button type="submit">Tarkista ilmoittautumispyyntö</button>
+    </form>
+
+    <p id="form-status" role="status"></p>
+  </section>
+
+  <section aria-labelledby="contact-info-heading">
+    <h2 id="contact-info-heading">Yhteystiedot</h2>
+    <p>Autokoulu Ajokaista, Alajärvi</p>
+    <p>Yhteyshenkilö: Tiina Ojala, ajo-opettaja</p>
+  </section>
+</main>
 
   <footer>
     <p>&copy; Autokoulu Ajokaista, Alajärvi</p>
